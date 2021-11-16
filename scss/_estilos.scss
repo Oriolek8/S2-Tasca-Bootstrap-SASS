@@ -1,0 +1,87 @@
+
+.intro_simple{
+
+
+
+    .boton_gris{
+        -webkit-box-shadow: 1px 10px 26px -9px rgba(185,182,250,1);
+        -moz-box-shadow: 1px 10px 26px -9px rgba(185,182,250,1);
+        box-shadow: 1px 10px 26px -9px rgba(185,182,250,1);
+        
+    }
+}
+
+
+.faq{
+    margin-top: 10rem;
+}
+
+
+.texto-hover-rojo{
+
+    &:hover{
+        color:red !important;
+    }
+}
+
+.nav-item{
+
+
+    a{
+
+        &:hover {
+            
+            color:red !important;
+            
+          }
+        &:last-child{
+
+            .login{
+                &:hover {
+                    background:white !important;
+                    color:red !important;
+                    border:1px solid red !important;
+                  }
+            }
+        }
+    }  
+   
+    
+        
+
+    
+}
+.btn-primary{
+    &:hover {
+        background:white !important;
+        color: blue !important;
+        
+    }  
+        
+}
+.btn-light{
+    &:hover {
+        background:white !important;
+        color: grey !important;
+        border: 1px solid grey !important;
+        
+    }  
+}
+
+.nav-item-2 {
+
+    a{
+    
+        border-bottom: 1px solid grey !important;
+        
+
+            &:hover {      
+                color: red !important;
+            }
+
+            &.active {      
+                border-bottom:1px solid red !important;
+        }
+            
+    }
+}
